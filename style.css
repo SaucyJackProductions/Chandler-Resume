@@ -1,0 +1,67 @@
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+  background: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  background: #2d8cf0;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 1rem;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+h2, h3 {
+  color: #2d8cf0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.3rem;
+}
+
+.info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.column {
+  flex: 1 1 40%;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #2d8cf0;
+  text-decoration: none;
+}
